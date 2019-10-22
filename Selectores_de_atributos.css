@@ -1,0 +1,46 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif
+
+
+}
+
+/*Todos los elementos que tengan el atributo data-vegetal al valor cebolla tendran otro color verde */
+[data-vegetal]{
+    color: green;
+    border: 1px solid black;
+}
+/*todo los elementos que tengan el atributo rojo al valor pimiento tendran otro color rojo */
+[data-vegetal="rojo"]{
+
+color: red;
+}
+[al-gusto="verde"]{
+
+color:darkgreen;
+border: 1px solid black;   
+}
+[al-gusto]{
+
+border: 1px solid black;
+
+}
+
+[cantidad=gris]{
+color:gray;
+border: 1px solid black;
+
+}
+
+[data-vegetal="blanco"]{
+
+    color: gray;
+
+}
+
+.pisto{
+
+    display: flex;
+    
+    
+
+}
